@@ -1,0 +1,16 @@
+*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    padding: 70px 70px 24px 70px ;
+    font-family: 'Righteous', cursive;
+    background-image: url(./img/blueyback.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
